@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model  # type: ignore
 from PIL import Image
 
 # Charger le modèle de détection d'incendie
